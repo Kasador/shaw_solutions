@@ -39,9 +39,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  # Uncomment to add image assets
-  # assets:
-  #   - images/sample_image.jpeg
+  assets:
+    - assets/images/logo.png
 
   # Uncomment to add custom fonts
   # fonts:

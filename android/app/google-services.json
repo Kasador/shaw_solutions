@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1012219230958",
+    "project_id": "shaw-solutions",
+    "storage_bucket": "shaw-solutions.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012219230958:android:d19e44f317b71fd9bd51ff",
+        "android_client_info": {
+          "package_name": "info.hunterstevenshaw.shawSolutions"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8Y_BbaFKT44iEdNqlUp0m4i44ijwMXNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

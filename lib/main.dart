@@ -1,10 +1,16 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:your_app_name/authentication.dart';
+import 'package:shaw_solutions/authentication.dart'; 
+import 'firebase_options.dart';  // Import the generated Firebase options
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  
+  // Initialize Firebase with the auto-generated options file
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  
   runApp(MyApp());
 }
 
@@ -14,6 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Shaw Solutions',
       home: AuthenticationScreen(),
     );
   }
